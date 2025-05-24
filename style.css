@@ -9,10 +9,6 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  --green: hsl(160deg, 100%, 30%);
-  --darkgray: hsl(0deg, 0%, 40%);
-  --lightgray: hsl(0deg, 0%, 60%);
-  line-height: 1.5;
 }
 
 html,
@@ -48,6 +44,10 @@ header, main {
   padding-block: 64px;
 }
 
+.intro-chunk p {
+  max-width: 415px;
+}
+
 main {
   background-color: var(--main-gray);
   padding-block: 72px;
@@ -78,7 +78,4 @@ p {
   line-height: 1.5;
 }
 
-.intro-chunk p {
-  max-width: 415px;
-}
 
